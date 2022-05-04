@@ -7,7 +7,7 @@
         $('.color-mode-icon').toggleClass('active')
         $('body').toggleClass('dark-mode')
         var image = $('#my-image');
-        console.log('this is the way: ', image.attr('src'))
+        console.log('this is the way: ', $('#my-image').attr('src'))
         var src = image.attr('src') == "https://lh3.googleusercontent.com/d/1kmREhTIU_gx5Wx47Y6Xz_9MvrZfS9C0-" || image.attr('src') == "/images/undraw/roundbw.png" ? "/images/undraw/round.jpg" : "/images/undraw/roundbw.png";
         await image.attr('src', src)
 
