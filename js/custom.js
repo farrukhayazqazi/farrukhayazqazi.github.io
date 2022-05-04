@@ -3,13 +3,12 @@
   "use strict";
 
     // COLOR MODE
-    $('.color-mode').click(function(){
+    $('.color-mode').click(async function(){
         $('.color-mode-icon').toggleClass('active')
         $('body').toggleClass('dark-mode')
         var image = $('#my-image');
-        console.log('imae: ', image)
         var src = image.attr('src') == "/images/undraw/roundbw.png" ? "/images/undraw/round.jpg" : "/images/undraw/roundbw.png";
-        image.attr('src', src)
+        await image.attr('src', src)
     })
 
     // HEADER
