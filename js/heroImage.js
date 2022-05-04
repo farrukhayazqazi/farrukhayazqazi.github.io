@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+// document.addEventListener('DOMContentLoaded', function() {
     var img = document.getElementById('my-image');
     img.src = '/images/undraw/round.jpg';
     // img.src = 'https://lh3.googleusercontent.com/d/1kmREhTIU_gx5Wx47Y6Xz_9MvrZfS9C0-';
@@ -11,4 +11,4 @@ themeButton.addEventListener('click', function () {
     img.src = img.src.includes('.png') ? '/images/undraw/round.jpg' : '/images/undraw/roundbw.png';
 
 })
-});
+// });
