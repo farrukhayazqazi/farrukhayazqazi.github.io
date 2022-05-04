@@ -582,3 +582,11 @@ b, strong {
 .social-profiles a {
   color: black;
 }
+
+.projects-mt {
+  margin-top: 5.5rem;
+}
+
+.contributions-mb {
+  margin-bottom: 5rem;
+}
