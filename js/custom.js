@@ -9,6 +9,11 @@
         var image = $('#my-image');
         var src = image.attr('src') == "/images/undraw/roundbw.png" ? "/images/undraw/round.jpg" : "/images/undraw/roundbw.png";
         await image.attr('src', src)
+
+        image.on('error', function() {
+          // Backup image in case of error
+          image.attr('src', '/images/undraw/roundbw.png');
+      })
     })
 
     // HEADER
