@@ -12,7 +12,7 @@
 
         image.on('error', function() {
           // Backup image in case of error
-          image.attr('src', '/images/undraw/roundbw.png');
+          image.attr('src', 'https://lh3.googleusercontent.com/d/1kmREhTIU_gx5Wx47Y6Xz_9MvrZfS9C0-');
       })
     })
 
