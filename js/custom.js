@@ -7,7 +7,7 @@
         $('.color-mode-icon').toggleClass('active')
         $('body').toggleClass('dark-mode')
         var image = $('#my-image');
-        var src = image.attr('src') == "/images/undraw/roundbw.png" ? "/images/undraw/round.jpg" : "/images/undraw/roundbw.png";
+        var src = image.attr('src') == "https://lh3.googleusercontent.com/d/1kmREhTIU_gx5Wx47Y6Xz_9MvrZfS9C0-" || image.attr('src') == "/images/undraw/roundbw.png" ? "/images/undraw/round.jpg" : "/images/undraw/roundbw.png";
         await image.attr('src', src)
 
         image.on('error', function() {
