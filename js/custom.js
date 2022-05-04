@@ -1,22 +1,14 @@
 (function ($) {
 
+
+
   "use strict";
 
     // COLOR MODE
-    $('.color-mode').click(async function(){
+    $('.color-mode').click(function(){
         $('.color-mode-icon').toggleClass('active')
         $('body').toggleClass('dark-mode')
-        var image = $('#my-image');
-        console.log('this is the way: ', $('#my-image').attr('src'))
-        var src = image.attr('src') == "https://lh3.googleusercontent.com/d/1kmREhTIU_gx5Wx47Y6Xz_9MvrZfS9C0-" || image.attr('src') == "/images/undraw/roundbw.png" ? "/images/undraw/round.jpg" : "/images/undraw/roundbw.png";
-        await image.attr('src', src)
-
-        image.on('error', function() {
-          // Backup image in case of error
-          image.attr('src', 'https://lh3.googleusercontent.com/d/1kmREhTIU_gx5Wx47Y6Xz_9MvrZfS9C0-');
-      })
     })
-
     // HEADER
     $(".navbar").headroom();
 
