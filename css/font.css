@@ -1,0 +1,17 @@
+@import url(//db.onlinewebfonts.com/c/8b2760b7bcaf4e2cdbb6cacec092b91b?family=MuseoSans-900);
+
+@font-face {
+    font-family: "Bobby Jones";
+    src: url("../font/bobbyjones.ttf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Museo Sans";
+    src: url('../font/MuseoSans-900.ttf');
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+  }
