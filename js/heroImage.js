@@ -1,3 +1,6 @@
+lazyload();
+window.onload = document.getElementById("loading").style.visibility = 'hidden';
+
 document.addEventListener("DOMContentLoaded", function() {
     var themeButton = document.getElementById("theme-btn");
     themeButton.addEventListener("click", function() {
