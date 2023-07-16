@@ -587,6 +587,25 @@ b, strong {
   margin-bottom: 5rem;
 }
 
+.project-img-width {
+  width: 30rem;
+}
+
+.project-div {
+  padding: 3rem 0 3rem 0;
+  display: flex;
+  align-items: start;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 2rem;
+  text-align: left;
+
+}
+
 /* #my-image {
   background-image: url('https://i.gifer.com/D5Vu.gif')
 } */
