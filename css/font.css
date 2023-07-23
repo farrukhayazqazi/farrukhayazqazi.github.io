@@ -18,7 +18,7 @@
 
   @font-face {
     font-family: "Futura Light";
-    src: url('../font/futura\ light\ bt.ttf');
+    src: url('../font/futura-light.ttf');
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -26,7 +26,7 @@
 
   @font-face {
     font-family: "Gotham Medium";
-    src: url('../font/GothamMedium_1.ttf');
+    src: url('../font/Gotham-medium.ttf');
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -34,7 +34,7 @@
 
   @font-face {
     font-family: "Gotham Light";
-    src: url('../font/GothamLight.ttf');
+    src: url('../font/Gotham-light.ttf');
     font-style: normal;
     font-weight: 500;
     font-display: swap;
