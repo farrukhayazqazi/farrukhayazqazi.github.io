@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #212121;
-  font-size: 2.8em;
+  font-size: 2.5em;
   margin: 24px 0;
 }
 
@@ -125,7 +125,8 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  /* font-size: 38px; */
+  font-size: 2.2rem;
   line-height: inherit;
   display: block;
   opacity: 0;
@@ -281,16 +282,18 @@ b, strong {
   right: 6px;
 }
 .color-mode-icon:after {
-  font-family: 'unicons';
-  content: '\ea9f';
-  font-size: 30px;
+  font-family:'bootstrap-icons';
+  content: '\F1D2';
+  font-size: 18px;
+  margin: 8px;
   font-weight: 300;
   font-style: normal;
 }
 .color-mode-icon.active:after {
-  font-family: 'unicons';
-  content: '\eb65';
-  font-size: 30px;
+  font-family:'bootstrap-icons';
+  content: '\F495';
+  font-size: 15px;
+  margin: 8px;
   color: #ffffff;
 }
 
@@ -478,6 +481,7 @@ b, strong {
 }
 @media (max-width: 991px) {
   .full-screen {
+    padding-top: 2rem;
     padding-bottom: 4rem;
   }
 
@@ -523,10 +527,22 @@ b, strong {
 }
 @media (max-width: 580px) {
 	.animated-info {
-		min-width: 200px;
+    margin-top: 1.2rem;
 	}
   .animated-item {
-    font-size: 30px;
+    font-size: 2.2rem;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .image-mob {
+    display: block !important;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    text-align: center;
   }
 
   .custom-btn-group {
@@ -546,7 +562,9 @@ b, strong {
     display: block;
     margin: 10px 0 0 0;
   }
+
 }
+
 @media (max-width: 320px) {
   .animated-text {
     margin-top: 0;
@@ -648,4 +666,21 @@ b, strong {
   .project-div .col-md-6 {
     width: 100%;
   }
+
 }
+
+.about {
+  margin: 0.5rem 0;
+}
+
+.image-mob {
+  display: none;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+    border-color: #ffc200;
+    background-color: #ffc200;
+}
+
+
