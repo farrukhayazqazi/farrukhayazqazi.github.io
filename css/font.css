@@ -15,3 +15,28 @@
     font-weight: 900;
     font-display: swap;
   }
+
+  @font-face {
+    font-family: "Futura Light";
+    src: url('../font/futura\ light\ bt.ttf');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Gotham Medium";
+    src: url('../font/GothamMedium_1.ttf');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Gotham Light";
+    src: url('../font/GothamLight.ttf');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+
