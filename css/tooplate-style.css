@@ -623,12 +623,20 @@ b, strong {
   flex-direction: column;
   align-items: baseline;
   margin: 2rem;
+  margin-top: 0;
   text-align: left;
 }
 
 .project-info p {
   color: #818181;
 }
+
+@media (max-width: 375px) {
+  .project-info {
+    margin: 2rem 0;
+  }
+}
+
 
 .tech-stack {
   width: 4rem;
