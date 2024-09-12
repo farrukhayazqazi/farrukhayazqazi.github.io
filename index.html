@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -19,132 +19,138 @@
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
 
-  </head>
-  <body>
+</head>
+<body>
 
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">farrukhayazqazi</a>
+<!-- MENU -->
+<nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container">
+        <a id="navbar-logo" class="navbar-brand" href="index.html">farrukhayazqazi</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
-                    </li>
-                </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                </li>
+            </ul>
 
-                <ul class="navbar-nav ml-lg-auto">
-                    <div class="ml-lg-4">
-                      <div id="theme-btn" class="flex-container custom-switch color-mode d-lg-flex justify-content-center align-items-center">
+            <ul class="navbar-nav ml-lg-auto">
+                <div class="ml-lg-4">
+                    <div id="theme-btn"
+                         class="flex-container custom-switch color-mode d-lg-flex justify-content-center align-items-center">
                         <!-- theme -->
                         <input type="checkbox" class="custom-control-input color-mode" id="toggle-theme-btn" checked>
-                          <label class="custom-control-label" for="toggle-theme-btn"><i class="color-mode-icon"></i></label>
-                      </div>
+                        <label class="custom-control-label" for="toggle-theme-btn"><i
+                                class="color-mode-icon"></i></label>
                     </div>
-                </ul>
-            </div>
+                </div>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- ABOUT -->
-    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-        <div class="container">
+<!-- ABOUT -->
+<section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+    <div class="container">
+        <div class="row">
+
+            <img class="image-mob" src="./assets/me/round.png" class="img-fluid" aria-label="farrukhayazqazi  "/>
+            <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+
+                <div id="about-text" class="about-text">
+                    <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                    <h1 class="animated animated-text">
+                        <span class="mr-2">Hey folks, I'm a</span>
+                        <div class="animated-info">
+                            <span class="animated-item">Software Engineer</span>
+                            <span class="animated-item">Product Designer</span>
+                            <span class="animated-item">Photographer</span>
+                        </div>
+                    </h1>
+
+                    <p style='font-family: Gotham Light'>Building a successful product is a challenge. I am highly
+                        energetic in user experience design, interfaces and development.</p>
+
+                    <div class="custom-btn-group mt-4">
+                        <a href="resume/Farrukh-Ayaz-Qazi-resume.pdf" class="btn mr-lg-2 custom-btn" download
+                           target="_blank"><i class="bi bi-file-earmark-person-fill"></i> Download Resume</a>
+                        <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link"><i
+                                class="bi bi-pen"></i> Get a free quote</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12 col-12">
+                <div class="about-image">
+                    <!-- <img id="my-image" src="https://lh3.googleusercontent.com/d/1rlxPs4x1RjBSbHfdKMAW_5YCs9FxGIDB" class="img-fluid" aria-label="farrukhayazqazi img"/> -->
+                    <img id="my-image" src="./assets/me/round.png" class="img-fluid" aria-label="farrukhayazqazi img"/>
+                    <!-- <img id="loading" src="https://i.gifer.com/D5Vu.gif"/> -->
+                    <!-- <img id="my-image" class="lazyload img-fluid" data-src="/assets/me/round.png" aria-label="farrukhayazqazi img"/> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<!-- <section class="project py-5" id="project">
+    <div class="container">
+
             <div class="row">
-                
-              <img class="image-mob" src="./assets/me/round.png" class="img-fluid" aria-label="farrukhayazqazi  "/>
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+              <div class="col-lg-11 text-center mx-auto col-12">
 
-                    <div class="about-text">
-                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
-                        <h1 class="animated animated-text">
-                            <span class="mr-2">Hey folks, I'm a</span>
-                                <div class="animated-info">
-                                    <span class="animated-item">Software Engineer</span>
-                                    <span class="animated-item">Product Designer</span>
-                                    <span class="animated-item">Photographer</span>
-                                </div>
-                        </h1>
-
-                        <p style='font-family: Gotham Light'>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and development.</p>
-                        
-                        <div class="custom-btn-group mt-4">
-                          <a href="resume/Farrukh-Ayaz-Qazi-resume.pdf" class="btn mr-lg-2 custom-btn" download target="_blank"><i class="bi bi-file-earmark-person-fill"></i> Download Resume</a>
-                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link"><i class="bi bi-pen"></i> Get a free quote</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image">
-                        <!-- <img id="my-image" src="https://lh3.googleusercontent.com/d/1rlxPs4x1RjBSbHfdKMAW_5YCs9FxGIDB" class="img-fluid" aria-label="farrukhayazqazi img"/> -->
-                        <img id="my-image" src="./assets/me/round.png" class="img-fluid" aria-label="farrukhayazqazi img"/>
-                        <!-- <img id="loading" src="https://i.gifer.com/D5Vu.gif"/> -->
-                        <!-- <img id="my-image" class="lazyload img-fluid" data-src="/assets/me/round.png" aria-label="farrukhayazqazi img"/> -->
-                      </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <!-- <section class="project py-5" id="project">
-        <div class="container">
-                
-                <div class="row">
-                  <div class="col-lg-11 text-center mx-auto col-12">
-
-                      <div class="col-lg-8 mx-auto">
-                        <h2>Things I have been working on</h2>
-                      </div>
-
-                      <div class="owl-carousel owl-theme">
-                        <div class="item">
-                          <div class="project-info">
-                            <a href="http://hirecinch.com" rel="nofollow" target="_blank"><img src="assets/project/project-image01.png" class="lazyload img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <a href="https://github.com/farrukhayazqazi" target="_blank"><img src="assets/project/project-image02.png" class="lazyload img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <a href="https://medium.com/@farrukhayazqazi" target="_blank"><img src="assets/project/project-image03.png" class="lazyload img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <a href="https://www.behance.net/farrukhayax" target="_blank"><img src="assets/project/project-image04.png" class="lazyload img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
-                      </div>
-
+                  <div class="col-lg-8 mx-auto">
+                    <h2>Things I have been working on</h2>
                   </div>
-                </div>
-        </div>
-    </section> -->
+
+                  <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="project-info">
+                        <a href="http://hirecinch.com" rel="nofollow" target="_blank"><img src="assets/project/project-image01.png" class="lazyload img-fluid" alt="project image"></a>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="project-info">
+                        <a href="https://github.com/farrukhayazqazi" target="_blank"><img src="assets/project/project-image02.png" class="lazyload img-fluid" alt="project image"></a>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="project-info">
+                        <a href="https://medium.com/@farrukhayazqazi" target="_blank"><img src="assets/project/project-image03.png" class="lazyload img-fluid" alt="project image"></a>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="project-info">
+                        <a href="https://www.behance.net/farrukhayax" target="_blank"><img src="assets/project/project-image04.png" class="lazyload img-fluid" alt="project image"></a>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+    </div>
+</section> -->
 <!-- 
     <section class="project py-5" id="project">
       <div class="container">
@@ -180,509 +186,550 @@
       </div>
     </section> -->
 
-    <section class="project py-5" id="project">
-      <div class="container">
+<section class="project py-5" id="project">
+    <div class="container">
         <div class="row">
-    
-          <div class="col-lg-11 text-center col-12">
-    
-            <div class="col-lg-8 mx-auto mb-4">
-              <h2>Projects that I've been working on</h2>
-            </div>
 
-            <!-- hirecinch -->
-            <div class="project-div">
-              <div class="col-md-6">
-                <img class="img-fluid rounded float-left shadow" src="assets/project/hirecinch-banner.png" />
-              </div>
-              <div class="col-md-6">
-                <div class="project-info">
-                  <h4>Hire Cinch</h4>
-                  <p style="font-family: Futura Light;">
-                    All-in-one solution designed to empower recruiters in attracting top-tier applicants and conducting collaborative evaluations. The platform revolutionizes the recruitment process, enabling the user to easily identify the perfect matches for their teams and build a workforce of exceptional talent.
-                  </p>
+            <div class="col-lg-11 text-center col-12">
 
-                    <p class="project-small-subheading">CONTRIBUTIONS</p>
+                <div class="col-lg-8 mx-auto mb-4">
+                    <h2>Projects that I've been working on</h2>
+                </div>
 
-                    <div class="flex-container">
-                      <p class="tag badge badge-pill badge-dark">
-                        <i class="bi bi-display p-2"></i>
-                        feature development
-                      </p>
-  
-                      <p class="tag badge badge-pill badge-dark">
-                        <i class="bi bi-search"></i>
-                        Research
-                      </p>
-  
-                      <p class="tag badge badge-pill badge-dark">
-                        <i class="bi bi-brush"></i>
-                        Product Design
-                      </p>
-  
-                      <p class="tag badge badge-pill badge-dark">
-                        <i class="bi bi-list-check"></i>
-                        Lean Practices
-                      </p>
+                <div id="projects">
+                    <!-- hirecinch -->
+                    <div class="project-div">
+                        <div class="col-md-6">
+                            <img class="img-fluid rounded float-left shadow" src="assets/project/hirecinch-banner.png"/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-info">
+                                <h4>Hire Cinch</h4>
+                                <p style="font-family: Futura Light;">
+                                    All-in-one solution designed to empower recruiters in attracting top-tier applicants
+                                    and conducting collaborative evaluations. The platform revolutionizes the
+                                    recruitment process, enabling the user to easily identify the perfect matches for
+                                    their teams and build a workforce of exceptional talent.
+                                </p>
+
+                                <p class="project-small-subheading">CONTRIBUTIONS</p>
+
+                                <div class="flex-container">
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-display p-2"></i>
+                                        feature development
+                                    </p>
+
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-search"></i>
+                                        Research
+                                    </p>
+
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-brush"></i>
+                                        Product Design
+                                    </p>
+
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-list-check"></i>
+                                        Lean Practices
+                                    </p>
+                                </div>
+
+
+                                <div>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/vitejs.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/typescript.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/tailwind.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/django.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/aws.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/docker.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/jest.svg"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
+                    <hr class="border-top mb-3" style="width: 50%;">
 
+                    <!-- swap play -->
+                    <div class="project-div">
+                        <div class="col-md-6">
+                            <img class="img-fluid rounded float-left shadow" src="assets/project/ss.jpg"/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-info">
+                                <h4>Swap Play</h4>
+                                <p style="font-family: Futura Light;">
+                                    A cutting-edge mobile application designed to revolutionize the gaming community by
+                                    offering gamers a seamless platform to exchange their favorite games. Built with a
+                                    user-centric approach, this innovative app provides a convenient and efficient way
+                                    for gamers to trade games they no longer wish to keep and discover exciting new
+                                    titles to enrich their gaming experiences.
+                                </p>
+                                <p class="project-small-subheading">CONTRIBUTIONS</p>
 
-                  <div>
-                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/vitejs.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/typescript.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/tailwind.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/django.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/aws.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/docker.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/jest.svg" />
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <hr class="border-top mb-3" style="width: 50%;">
-            
-            <!-- swap play -->
-            <div class="project-div">
-              <div class="col-md-6">
-                <img class="img-fluid rounded float-left shadow" src="assets/project/ss.jpg" />
-              </div>
-              <div class="col-md-6">
-                <div class="project-info">
-                  <h4>Swap Play</h4>
-                  <p style="font-family: Futura Light;">
-                    A cutting-edge mobile application designed to revolutionize the gaming community by offering gamers a seamless platform to exchange their favorite games. Built with a user-centric approach, this innovative app provides a convenient and efficient way for gamers to trade games they no longer wish to keep and discover exciting new titles to enrich their gaming experiences.
-                  </p>
-                  <p class="project-small-subheading">CONTRIBUTIONS</p>
+                                <div class="flex-container">
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-phone"></i>
+                                        Mobile Application Development
+                                    </p>
 
-                  <div class="flex-container">
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-phone"></i>
-                      Mobile Application Development
-                    </p>
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-search"></i>
+                                        Research
+                                    </p>
 
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-search"></i>
-                      Research
-                    </p>
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-brush"></i>
+                                        Product Design
+                                    </p>
 
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-brush"></i>
-                      Product Design
-                    </p>
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-lightbulb"></i>
+                                        Concept
+                                    </p>
+                                </div>
 
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-lightbulb"></i>
-                      Concept
-                    </p>
-                  </div>
-
-                  <div>
-                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/typescript.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/tailwind.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/ionic.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/firebase.svg" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <hr class="border-top mb-3" style="width: 50%;">
-
-            <!-- QuickSell - point of sale -->
-            <div class="project-div">
-              <div class="col-md-6">
-                <img class="img-fluid rounded float-left shadow" src="assets/project/quicksell-banner.jpg" />
-              </div>
-              <div class="col-md-6">
-                <div class="project-info">
-                  <h4>QuickSell - Point of Sale</h4>
-                  <p style="font-family: Futura Light;">
-                    A Point of Sale system designed with efficiency and versatility in mind, QuickSell streamlines retail operations, enabling businesses to process sales transactions, manage inventory, and monitor customer interactions with ease. This comprehensive and user-friendly POS solution empowers businesses to elevate their sales processes and deliver exceptional customer experiences.
-                  </p>
-
-                  <p class="project-small-subheading">CONTRIBUTIONS</p>
-
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-display p-2"></i>
-                      web development
-                    </p>
-
-                  <div>
-                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/bootstrap5.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/django.svg" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <hr class="border-top mb-3" style="width: 50%;">
-
-            <!-- Trip Manual -->
-            <div class="project-div">
-              <div class="col-md-6">
-                <img class="img-fluid rounded float-left shadow" src="assets/project/tripmanual-banner.jpg" />
-              </div>
-              <div class="col-md-6">
-                <div class="project-info">
-                  <h4>Trip Manual</h4>
-                  <p style="font-family: Futura Light;">
-                    Trip Manual reimagines the way travelers plan and book their dream trips by providing a comprehensive platform for travelers to effortlessly book their dream trips. This innovative application caters to multiple traveling agencies, offering travelers a seamless experience in discovering, comparing, and booking trips with diverse itineraries and competitive pricing. With an intuitive interface and robust features, Trip Manual empowers travelers to embark on unforgettable journeys with confidence and ease.
-                  </p>
-
-                  <p class="project-small-subheading">CONTRIBUTIONS</p>
-
-                  <div class="flex-container">
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-display p-2"></i>
-                      web development
-                    </p>
-
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-search"></i>
-                      Research
-                    </p>
-
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-brush"></i>
-                      UI/UX Design
-                    </p>
-
-                    <p class="tag badge badge-pill badge-dark">
-                      <i class="bi bi-lightbulb"></i>
-                      Concept
-                    </p>
-                  </div>
-
-                  <div>
-                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/typescript.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/bootstrap5.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/nodejs.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/mongodb.svg" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <hr class="border-top mb-3" style="width: 50%;">
-
-            <!-- parkinmyspot -->
-            <div class="project-div">
-              <div class="col-md-6">
-                <img class="img-fluid rounded float-left shadow" src="assets/project/parkinmyspot.jpg" />
-              </div>
-              <div class="col-md-6">
-                <div class="project-info">
-                  <h4>parkinmyspot</h4>
-                  <p style="font-family: Futura Light;">
-                    Parkinmyspot is a groundbreaking project aimed at addressing the growing parking needs faced by individuals in both residential and commercial areas. Finding a parking spot has become increasingly challenging, especially in densely populated locations and busy markets flooded with vehicles. Additionally, homeowners without dedicated parking spaces encounter significant parking dilemmas. Parkinmyspot steps in as the ultimate parking solution, providing a convenient platform to locate, reserve, and manage parking spaces efficiently.
-                  </p>
-
-                  <p class="project-small-subheading">CONTRIBUTIONS</p>
-
-                    <div class="flex-container">
-                      <p class="tag badge badge-pill badge-dark">
-                        <i class="bi bi-search"></i>
-                        Research
-                      </p>
-  
-                      <p class="tag badge badge-pill badge-dark">
-                        <i class="bi bi-lightbulb"></i>
-                        Concept
-                      </p>
+                                <div>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/typescript.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/tailwind.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/ionic.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/firebase.svg"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                  <!-- <div>
-                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/vitejs.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/typescript.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/tailwind.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/django.svg" />
-                    <img class="tech-stack" src="./assets/project/technology-stack/aws.svg" />
-                  </div> -->
+                    <hr class="border-top mb-3" style="width: 50%;">
+
+                    <!-- QuickSell - point of sale -->
+                    <div class="project-div">
+                        <div class="col-md-6">
+                            <img class="img-fluid rounded float-left shadow" src="assets/project/quicksell-banner.jpg"/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-info">
+                                <h4>QuickSell - Point of Sale</h4>
+                                <p style="font-family: Futura Light;">
+                                    A Point of Sale system designed with efficiency and versatility in mind, QuickSell
+                                    streamlines retail operations, enabling businesses to process sales transactions,
+                                    manage inventory, and monitor customer interactions with ease. This comprehensive
+                                    and user-friendly POS solution empowers businesses to elevate their sales processes
+                                    and deliver exceptional customer experiences.
+                                </p>
+
+                                <p class="project-small-subheading">CONTRIBUTIONS</p>
+
+                                <p class="tag badge badge-pill badge-dark">
+                                    <i class="bi bi-display p-2"></i>
+                                    web development
+                                </p>
+
+                                <div>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/bootstrap5.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/django.svg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="border-top mb-3" style="width: 50%;">
+
+                    <!-- Trip Manual -->
+                    <div class="project-div">
+                        <div class="col-md-6">
+                            <img class="img-fluid rounded float-left shadow"
+                                 src="assets/project/tripmanual-banner.jpg"/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-info">
+                                <h4>Trip Manual</h4>
+                                <p style="font-family: Futura Light;">
+                                    Trip Manual reimagines the way travelers plan and book their dream trips by
+                                    providing a comprehensive platform for travelers to effortlessly book their dream
+                                    trips. This innovative application caters to multiple traveling agencies, offering
+                                    travelers a seamless experience in discovering, comparing, and booking trips with
+                                    diverse itineraries and competitive pricing. With an intuitive interface and robust
+                                    features, Trip Manual empowers travelers to embark on unforgettable journeys with
+                                    confidence and ease.
+                                </p>
+
+                                <p class="project-small-subheading">CONTRIBUTIONS</p>
+
+                                <div class="flex-container">
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-display p-2"></i>
+                                        web development
+                                    </p>
+
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-search"></i>
+                                        Research
+                                    </p>
+
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-brush"></i>
+                                        UI/UX Design
+                                    </p>
+
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-lightbulb"></i>
+                                        Concept
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/typescript.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/bootstrap5.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/nodejs.svg"/>
+                                    <img class="tech-stack" src="./assets/project/technology-stack/mongodb.svg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="border-top mb-3" style="width: 50%;">
+
+                    <!-- parkinmyspot -->
+                    <div class="project-div">
+                        <div class="col-md-6">
+                            <img class="img-fluid rounded float-left shadow" src="assets/project/parkinmyspot.jpg"/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-info">
+                                <h4>parkinmyspot</h4>
+                                <p style="font-family: Futura Light;">
+                                    Parkinmyspot is a groundbreaking project aimed at addressing the growing parking
+                                    needs faced by individuals in both residential and commercial areas. Finding a
+                                    parking spot has become increasingly challenging, especially in densely populated
+                                    locations and busy markets flooded with vehicles. Additionally, homeowners without
+                                    dedicated parking spaces encounter significant parking dilemmas. Parkinmyspot steps
+                                    in as the ultimate parking solution, providing a convenient platform to locate,
+                                    reserve, and manage parking spaces efficiently.
+                                </p>
+
+                                <p class="project-small-subheading">CONTRIBUTIONS</p>
+
+                                <div class="flex-container">
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-search"></i>
+                                        Research
+                                    </p>
+
+                                    <p class="tag badge badge-pill badge-dark">
+                                        <i class="bi bi-lightbulb"></i>
+                                        Concept
+                                    </p>
+                                </div>
+
+                                <!-- <div>
+                                  <img class="tech-stack" src="./assets/project/technology-stack/reactjs.svg" />
+                                  <img class="tech-stack" src="./assets/project/technology-stack/vitejs.svg" />
+                                  <img class="tech-stack" src="./assets/project/technology-stack/typescript.svg" />
+                                  <img class="tech-stack" src="./assets/project/technology-stack/tailwind.svg" />
+                                  <img class="tech-stack" src="./assets/project/technology-stack/django.svg" />
+                                  <img class="tech-stack" src="./assets/project/technology-stack/aws.svg" />
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-              </div>
+
+
             </div>
-
-            
-
-
-
-            
-    
-          </div>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
 
-    <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
-        <div class="container">
-            <div class="row">
+<!-- FEATURES -->
+<section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+    <div class="container">
+        <div class="row">
 
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">Experiences</h2>
+            <div class="col-lg-6 col-12">
+                <h2 class="mb-4">Experiences</h2>
 
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>present</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Software Engineer</span><small>carteblanche</small></h3>
-                                  <p >A product-based company that crafts products that are extremely user- centric. Follows a scientific design approach with a mix of agile development.</p>
-                             </div>
+                <div class="timeline">
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>present</span>
                         </div>
-                            <!-- <div class="timeline-wrapper">
-                              <div class="timeline-yr">
-                                    <span>present</span>
-                              </div>
-                             <div class="timeline-info">
-                                  <h3><span>Technical Development Lead</span><small>vada innovation</small></h3>
-                                  <p>
-                                    Vada innovation is a dynamic and innovative tech company that excels in the creation of cutting-edge products for both mobile and web platforms. Our expertise extends beyond conventional development, as we are at the forefront of blockchain technology and a wide range of other exciting advancements.
-                                  </p>
-                             </div>
-                        </div> -->
-                        <div class="timeline-wrapper">
-                          <div class="timeline-yr">
-                              <span>2020</span>
-                          </div>
-                          <div class="timeline-info">
-                              <h3><span>Technical Support Intern</h3>
-                              <p >Selected among 100 students by the university of education's competent authority to provide technical support to teaching and administrating
-                                staff of the university.</p>
-                          </div>
+                        <div class="timeline-info">
+                            <h3><span>Software Engineer</span><small>carteblanche</small></h3>
+                            <p>A product-based company that crafts products that are extremely user- centric. Follows a
+                                scientific design approach with a mix of agile development.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="timeline-wrapper">
+                      <div class="timeline-yr">
+                            <span>present</span>
                       </div>
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2018</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Freelance Designer</span><small>fiverr</small></h3>
-                                <p >creating visual concepts, using computer software or by hand, to
-                                  communicate ideas that inspire, inform, and captivate consumers. Most
-                                  importantly building relationship with clients by providing quality work</p>
-                            </div>
+                     <div class="timeline-info">
+                          <h3><span>Technical Development Lead</span><small>vada innovation</small></h3>
+                          <p>
+                            Vada innovation is a dynamic and innovative tech company that excels in the creation of cutting-edge products for both mobile and web platforms. Our expertise extends beyond conventional development, as we are at the forefront of blockchain technology and a wide range of other exciting advancements.
+                          </p>
+                     </div>
+                </div> -->
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2020</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3><span>Technical Support Intern</h3>
+                            <p>Selected among 100 students by the university of education's competent authority to
+                                provide technical support to teaching and administrating
+                                staff of the university.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2018</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3><span>Freelance Designer</span><small>fiverr</small></h3>
+                            <p>creating visual concepts, using computer software or by hand, to
+                                communicate ideas that inspire, inform, and captivate consumers. Most
+                                importantly building relationship with clients by providing quality work</p>
                         </div>
                     </div>
                 </div>
-              <!--EDUCATION AND CERTIFICATIONS-->
-              <div class="col-lg-6 col-12 mobile-mt-2">
+            </div>
+            <!--EDUCATION AND CERTIFICATIONS-->
+            <div class="col-lg-6 col-12 mobile-mt-2">
                 <h2 class="mb-4 mobile-mt-2">Education and Certifications</h2>
 
-                  <div class="timeline">
-                      <div class="timeline-wrapper">
-                           <div class="timeline-yr">
-                                <span>2021</span>
-                           </div>
-                           <div class="timeline-info">
-                                <h3><span>BS Information Technology</span><small>UE</small></h3>
-                                <p >OOP, Data Structures, Database systems, OOAD, Web engineering etc.</p>
-                           </div>
-                      </div>
-
-                      <div class="timeline-wrapper">
-                          <div class="timeline-yr">
-                              <span>2020</span>
-                          </div>
-                          <div class="timeline-info">
-                              <h3><span>Agile Meets Design Thinking</span><small>coursera</small></h3>
-                              <p > Creating a shared perspective and drive to value using design methods like personas and problem scenarios . Diagnosing what software will be valuable to the user and how to test your ideas using agile user stories and prototypes  </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <!---->
-                <div class="mt-3 col-lg-6 col-12">
-                  <h2 class="mb-4 mobile-mt-2">Projects</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2021</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Trip Manual</span><small>final year project</small></h3>
-                                  <p >A software that connects tourists and trip operating companies.</p>
-                             </div>
+                <div class="timeline">
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2021</span>
                         </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2020</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Point of Sale</span><small>Django</small></h3>
-                                <p > A point of sale system that provides the functionality to their consumers to make payment for products/food/goods or any other
-                                  item at their store and maintains the database. A system that allows business owners to track sales, cash flow, manage inventory and can help simplify your bookkeeping enormously. </p>
-                            </div>
+                        <div class="timeline-info">
+                            <h3><span>BS Information Technology</span><small>UE</small></h3>
+                            <p>OOP, Data Structures, Database systems, OOAD, Web engineering etc.</p>
                         </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2013</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Chat App with socket.io</span><small>Node js</small></h3>
-                                <p >A social interaction web application that allows the user to enter their name and create chatrooms at the go. Every user representing
-                                  themselves as an individual entity.</p>
-                            </div>
+                    </div>
+
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2020</span>
                         </div>
-
-
-
+                        <div class="timeline-info">
+                            <h3><span>Agile Meets Design Thinking</span><small>coursera</small></h3>
+                            <p> Creating a shared perspective and drive to value using design methods like personas and
+                                problem scenarios . Diagnosing what software will be valuable to the user and how to
+                                test your ideas using agile user stories and prototypes </p>
+                        </div>
                     </div>
                 </div>
-                <div class="projects-mt col-lg-6 col-12">
-                  <div class="timeline-wrapper">
+            </div>
+            <!---->
+            <div class="mt-3 col-lg-6 col-12">
+                <h2 class="mb-4 mobile-mt-2">Projects</h2>
+
+                <div class="timeline">
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2021</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3><span>Trip Manual</span><small>final year project</small></h3>
+                            <p>A software that connects tourists and trip operating companies.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2020</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3><span>Point of Sale</span><small>Django</small></h3>
+                            <p> A point of sale system that provides the functionality to their consumers to make
+                                payment for products/food/goods or any other
+                                item at their store and maintains the database. A system that allows business owners to
+                                track sales, cash flow, manage inventory and can help simplify your bookkeeping
+                                enormously. </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2013</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3><span>Chat App with socket.io</span><small>Node js</small></h3>
+                            <p>A social interaction web application that allows the user to enter their name and create
+                                chatrooms at the go. Every user representing
+                                themselves as an individual entity.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="projects-mt col-lg-6 col-12">
+                <div class="timeline-wrapper">
                     <div class="timeline-yr">
                         <span>2013</span>
                     </div>
                     <div class="timeline-info">
                         <h3><span>Notebook App</span><small>React js</small></h3>
-                        <p >A web app that adds, manages and organizes a group of notes with
-                          login authentication.</p>
+                        <p>A web app that adds, manages and organizes a group of notes with
+                            login authentication.</p>
                     </div>
                 </div>
 
                 <div class="timeline-wrapper">
-                  <div class="timeline-yr">
-                      <span>2013</span>
-                  </div>
-                  <div class="timeline-info">
-                      <h3><span>Node js weather forecast</span><small>Node js</small></h3>
-                      <p >The weather applications show weather forecast with a chance of rain in percentage and humidity for any address provided by the user</p>
-                  </div>
-              </div>
-
-              <div class="timeline-wrapper">
-                <div class="timeline-yr">
-                    <span>2013</span>
-                </div>
-                <div class="timeline-info">
-                    <h3><span>Task Manager API</span><small>Node js</small></h3>
-                    <p >A task managing tool that helps the user to create tasks and mark if
-                      they are completed, provides the user privacy with authentication.</p>
-                </div>
-            </div>
-
-            <div class="timeline-wrapper">
-              <div class="timeline-yr">
-                  <span>2013</span>
-              </div>
-              <div class="timeline-info">
-                  <h3><span>Blogging Applications</span></h3>
-                  <p >A platform that allows the user to authenticate, to upload profile pictures, share their interests, ideas or research by creating blogs.</p>
-              </div>
-          </div>
-              
-                </div>
-          
-            </div>
-        </div>
-    </section>
-
-    <!---GITHUB--->
-    <!-- <div class="container">
-      <div class="text-center row">
-        <div class="m-5 col-lg">
-          <h2>My Github Contributions</h2>
-          <img class="lazyload" alt="GIF" height="80px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div class="calendar contributions-mb"> -->
-    <!-- Loading stuff -->
-    <!-- Loading the data just for you. -->
-    <!-- </div> -->
-
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-lg-5 mr-lg-5 col-12">
-            <div class="google-map w-100">
-              <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Lahore, punjab&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-
-            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Say hello</h3>
-                  <p><a href="mailto:farrukhayazqazi@gmail.com">farrukhayazqazi@gmail.com</a></p>
-                </div>
-
-                <ul class="social-links">
-                     <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left" title="Dribbble"></a></li>
-                     <li><a href="https://www.instagram.com/farrukhayazqazii/" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
-                     <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-12">
-            <div class="contact-form">
-              <h2 class="mb-4">Interested to work together? Let's talk</h2>
-
-              <form  action="https://formcarry.com/s/APfu8VYVsPn" method="POST" accept-charset="UTF-8">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                  </div>
-
-                  <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-     <footer class="footer py-5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-lg-12 col-12">                             
-                        <p class="copyright-text text-center">Copyright &copy; 2019 farrukhayazqazi. All rights reserved</p>
+                    <div class="timeline-yr">
+                        <span>2013</span>
                     </div>
-                    
-               </div>
-          </div>
-     </footer>
+                    <div class="timeline-info">
+                        <h3><span>Node js weather forecast</span><small>Node js</small></h3>
+                        <p>The weather applications show weather forecast with a chance of rain in percentage and
+                            humidity for any address provided by the user</p>
+                    </div>
+                </div>
 
-     <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
-     <script src="js/heroImage.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/Headroom.js"></script>
-    <script src="js/jQuery.headroom.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-    <script>new GitHubCalendar(".calendar", "farrukhayazqazi");</script>
-  
+                <div class="timeline-wrapper">
+                    <div class="timeline-yr">
+                        <span>2013</span>
+                    </div>
+                    <div class="timeline-info">
+                        <h3><span>Task Manager API</span><small>Node js</small></h3>
+                        <p>A task managing tool that helps the user to create tasks and mark if
+                            they are completed, provides the user privacy with authentication.</p>
+                    </div>
+                </div>
 
-  </body>
+                <div class="timeline-wrapper">
+                    <div class="timeline-yr">
+                        <span>2013</span>
+                    </div>
+                    <div class="timeline-info">
+                        <h3><span>Blogging Applications</span></h3>
+                        <p>A platform that allows the user to authenticate, to upload profile pictures, share their
+                            interests, ideas or research by creating blogs.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!---GITHUB--->
+<!-- <div class="container">
+  <div class="text-center row">
+    <div class="m-5 col-lg">
+      <h2>My Github Contributions</h2>
+      <img class="lazyload" alt="GIF" height="80px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="calendar contributions-mb"> -->
+<!-- Loading stuff -->
+<!-- Loading the data just for you. -->
+<!-- </div> -->
+
+<!-- CONTACT -->
+<section class="contact py-5" id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-5 mr-lg-5 col-12">
+                <div class="google-map w-100">
+                    <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Lahore, punjab&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                    <div class="contact-info-item">
+                        <h3 class="mb-3 text-white">Say hello</h3>
+                        <p><a href="mailto:farrukhayazqazi@gmail.com">farrukhayazqazi@gmail.com</a></p>
+                    </div>
+
+                    <ul class="social-links">
+                        <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left"
+                               title="Dribbble"></a></li>
+                        <li><a href="https://www.instagram.com/farrukhayazqazii/" class="uil uil-instagram"
+                               data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                        <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left"
+                               title="Youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-12">
+                <div class="contact-form">
+                    <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+                    <form action="https://formcarry.com/s/APfu8VYVsPn" method="POST" accept-charset="UTF-8">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                            </div>
+
+                            <div class="col-12">
+                                <textarea name="message" rows="6" class="form-control" id="message"
+                                          placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="ml-lg-auto col-lg-5 col-12">
+                                <input type="submit" class="form-control submit-btn" value="Send">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer py-5">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-12">
+                <p class="copyright-text text-center">Copyright &copy; 2019 farrukhayazqazi. All rights reserved</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/gsap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script src="js/heroImage.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Headroom.js"></script>
+<script src="js/jQuery.headroom.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+<script>new GitHubCalendar(".calendar", "farrukhayazqazi");</script>
+
+
+</body>
 </html>
