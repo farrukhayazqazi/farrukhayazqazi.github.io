@@ -678,7 +678,7 @@ b, strong {
 }
 
 .about {
-  margin: 0.5rem 0;
+  margin: 10rem 0;
 }
 
 .image-mob {
@@ -691,4 +691,19 @@ b, strong {
     background-color: #ffc200;
 }
 
+
+.image-container {
+  position: relative;
+}
+
+.transition-image {
+  position: absolute;
+  top: -100px;
+  max-width: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.hidden {
+  opacity: 0;
+}
 
